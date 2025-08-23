@@ -20,7 +20,7 @@ $$(".tab").forEach(btn => {
 const projects2D = [
   {
     title: "Pixel Runner",
-    image: "assets/2d/placeholder-2d.png",
+    image: "assets/2d/foto.png",
     tags: ["2D", "Pixel Art", "Unity"],
     link: "#"
   },
