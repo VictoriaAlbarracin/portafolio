@@ -35,7 +35,7 @@ const projects2D = [
 const projects3D = [
   {
     title: "Espada Low-Poly",
-    file: "assets/3d/hora_de_aventura.glb"
+    file: "assets/3d/hora_de_aventura.glb",
     tags: ["3D", "Blender", "GLB"]
   }
 ];
