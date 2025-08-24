@@ -7,28 +7,19 @@
   --color-text-muted: #cccccc;
   --color-border: rgba(255, 255, 255, 0.08);
 }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
 body {
   font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--color-text);
   background: radial-gradient(1200px 600px at 80% -10%, var(--color-accent) 0%, transparent 60%) no-repeat, var(--color-bg);
   line-height: 1.6;
 }
-
-/* ---------- Base ---------- 
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
-body {
-  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color: #0e0f12;
-  background: #0b0d12;
-  background: radial-gradient(1200px 600px at 80% -10%, #1b2030 0%, transparent 60%) no-repeat, #0b0d12;
-  line-height: 1.6;
-}
 img { max-width: 100%; display: block; }
 
 .container { width: min(1100px, 92%); margin: 0 auto; }
 
- ---------- Header ---------- */
 .site-header {
   position: sticky;
   top: 0;
