@@ -1,85 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portafolio – Diseño y Desarrollo de Videojuegos</title>
-  <meta name="description" content="Portafolio de videojuegos 2D y 3D" />
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victoria Albarracín – Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="logo">VA</div>
-        <div class="title">
-          <h1>Victoria Albarracín</h1>
-          <p>Diseñadora de Videojuegos · 2D / 3D</p>
-        </div>
-      </div>
-      <nav class="nav">
-        <a href="#proyectos">Proyectos</a>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </div>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">LOGO.</div>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mi</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
 
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-copy">
-        <h2>Portafolio de Videojuegos</h2>
-        <p>Proyectos seleccionados en 2D y 3D. Modelado, texturizado, y gameplay prototyping. Todos los modelos 3D se pueden previsualizar en el navegador.</p>
-        <a class="btn primary" href="#proyectos">Ver proyectos</a>
+  <!-- SOBRE MI -->
+  <section id="sobre-mi" class="sobre-mi">
+    <h2>Sobre mi</h2>
+    <div class="sobre-mi-grid">
+      <div class="card dark">
+        <h3>Victoria Albarracin</h3>
+        <p>
+          Soy diseñadora de videojuegos con experiencia en prototipado, arte 2D y modelado 3D. 
+          Trabajo con Unity y Blender, y me enfoco en crear experiencias claras y pulidas.
+        </p>
       </div>
-      <div class="hero-card">
-        <div class="hero-badge">Disponible para oportunidades</div>
-        <div class="hero-thumb">
-          <img src="assets/2d/placeholder-2d.png" alt="Portada de proyecto" />
-        </div>
+      <div class="card">
+        <h3>Herramientas</h3>
+        <p>
+          A la hora de llevar a cabo una presentación hay que perseguir dos objetivos: transmitir información y evitar bostezos. 
+          Plantea una pregunta dramática; es el ingrediente esencial para mantener la atención del público.
+        </p>
+      </div>
+      <div class="card light">
+        <h3>Contacto</h3>
+        <p>Email: tu-email@ejemplo.com</p>
+        <p>LinkedIn: /tu-usuario</p>
+        <p>GitHub: /tu-usuario</p>
       </div>
     </div>
   </section>
 
-  <main class="container" id="proyectos">
-    <div class="tabs">
-      <button class="tab active" data-tab="grid-2d">Proyectos 2D</button>
-      <button class="tab" data-tab="grid-3d">Proyectos 3D</button>
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="proyectos">
+    <h2>Proyectos</h2>
+    <div class="grid">
+      <div class="proyecto-card">
+        <img src="img/2d.png" alt="2D Pelota">
+        <h4>2D Pelota</h4>
+        <p>17/4/20XX</p>
+      </div>
+      <div class="proyecto-card">
+        <img src="img/3d.png" alt="3D Hora de aventura">
+        <h4>3D Hora de aventura</h4>
+        <p>18/4/20XX</p>
+      </div>
+      <div class="proyecto-card">
+        <img src="img/dia3.png" alt="Día 3">
+        <h4>Día 3</h4>
+        <p>19/4/20XX</p>
+      </div>
     </div>
-
-    <div id="grid-2d" class="grid active"></div>
-    <div id="grid-3d" class="grid"></div>
-  </main>
-
-  <section id="sobre-mi" class="container about">
-    <h3>Sobre mí</h3>
-    <p>Soy diseñadora de videojuegos con experiencia en prototipado, arte 2D y modelado 3D. Trabajo con Unity y Blender, y me enfoco en crear experiencias claras y pulidas.</p>
   </section>
 
-  <section id="contacto" class="container contact">
-    <h3>Contacto</h3>
-    <ul>
-      <li><strong>Email:</strong> tu-email@ejemplo.com</li>
-      <li><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">/tu-usuario</a></li>
-      <li><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener">/tu-usuario</a></li>
-    </ul>
+  <!-- PORTAFOLIO HERO -->
+  <section class="portafolio">
+    <h2>Portafolio</h2>
+    <p>
+      Proyectos seleccionados en 2D y 3D. Modelado, texturizado, y gameplay prototyping. 
+      Todos los modelos 3D se pueden previsualizar en el navegador.
+    </p>
   </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Victoria Albarracín · Portafolio</p>
-    </div>
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <p>© <span id="year"></span> Victoria Albarracín – Portafolio</p>
   </footer>
 
-  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
-  <script src="https://unpkg.com/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
-  <script src="https://unpkg.com/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
-
-  <script src="scripts/viewer.js"></script>
-  <script src="scripts/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
