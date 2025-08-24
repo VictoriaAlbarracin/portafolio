@@ -11,7 +11,7 @@
 <body>
   <!-- HEADER -->
   <header class="header">
-    <div class="logo">LOGO.</div>
+    <div class="logo">VICTORIA</div>
     <nav>
       <a href="#inicio">Inicio</a>
       <a href="#proyectos">Proyectos</a>
@@ -77,26 +77,21 @@
 
   <!-- PROYECTOS -->
   <section id="proyectos" class="proyectos">
-    <h2>Proyectos</h2>
-    <div class="grid">
-      <div class="proyecto-card">
-        <img src="img/2d.png" alt="2D Pelota">
-        <h4>2D Pelota</h4>
-        <p>17/4/20XX</p>
-      </div>
-      <div class="proyecto-card">
-        <img src="img/3d.png" alt="3D Hora de aventura">
-        <h4>3D Hora de aventura</h4>
-        <p>18/4/20XX</p>
-      </div>
-      <div class="proyecto-card">
-        <img src="img/dia3.png" alt="Día 3">
-        <h4>Día 3</h4>
-        <p>19/4/20XX</p>
-      </div>
-    </div>
-  </section>
+  <h2>Proyectos</h2>
 
+  <!-- Tabs para elegir entre 2D y 3D -->
+  <div class="tabs">
+    <button class="tab active" data-tab="grid-2d">2D</button>
+    <button class="tab" data-tab="grid-3d">3D</button>
+  </div>
+
+  <!-- Contenedores dinámicos que se llenan desde JS -->
+  <div class="grids">
+    <div id="grid-2d" class="grid active"></div>
+    <div id="grid-3d" class="grid"></div>
+  </div>
+</section>
+  
   <!-- PORTAFOLIO HERO -->
   <section class="portafolio">
     <h2>Portafolio</h2>
@@ -111,6 +106,7 @@
     <p>© <span id="year"></span> Victoria Albarracín – Portafolio</p>
   </footer>
 
+  <script src="scripts/viewer.js"></script> 
   <script src="scripts/main.js"></script>
 </body>
 </html>
