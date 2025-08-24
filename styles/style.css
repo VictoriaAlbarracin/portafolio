@@ -36,6 +36,36 @@ body {
   color: var(--primary);
 }
 
+.features {
+  background: #eee;
+  padding: 2rem 1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 1rem;
+  text-align: center;
+}
+
+.feature {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
 /* SOBRE MI */
 .sobre-mi { padding: 2rem; }
 .sobre-mi h2 { margin-bottom: 1rem; }
