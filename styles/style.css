@@ -10,7 +10,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #fff;
-  color: var(--text);
+  color: var(--accent);
   line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--dark);
+  background: linear-gradient(25deg, rgba(42, 55, 155, 1) 0%, rgba(167, 87, 199, 1) 50%, rgba(83, 237, 88, 1) 100%);
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -107,7 +107,10 @@ body {
 }
 
 /* PROYECTOS */
-.proyectos { padding: 2rem; background: #fafafa; }
+.proyectos { 
+  padding: 2rem; 
+  background: var(--accent);
+}
 .proyectos h2 { margin-bottom: 1rem; }
 .grid {
   display: grid;
@@ -151,7 +154,7 @@ body {
 
 /* FOOTER */
 .footer {
-  background: var(--dark);
+  background: var(--accent);
   color: #bbb;
   text-align: center;
   padding: 1rem;
