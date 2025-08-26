@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(25deg, rgba(42, 55, 155, 1) 0%, rgba(167, 87, 199, 1) 50%, rgba(83, 237, 88, 1) 100%);
+  background-color: #282828de;
   color: #fff;
   padding: 1rem 2rem;
 }
