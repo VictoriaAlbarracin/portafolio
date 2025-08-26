@@ -95,7 +95,7 @@ width: 800px;
 .container-imgs{
   display: flex;
   width: 600px;
-  height: 430px;
+  height: 400px;
 }
 .container-imgs img{
   width:0px;
@@ -114,8 +114,8 @@ width: 800px;
 .container-imgs-v {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 350px;
+  width: 600px;
+  height: 400px;
 }
 
 .container-imgs-v img {
