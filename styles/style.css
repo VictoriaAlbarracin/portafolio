@@ -67,12 +67,17 @@ body {
 
 
 /* SOBRE MI */
-.sobre-mi { padding: 2rem; }
+.sobre-mi { padding: 2rem; height: 80%; align-content: center; }
 .sobre-mi h2 { margin-bottom: 1rem; }
-.sobre-mi-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 1rem;
+.sobre-mi-flex{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+.sobre-mi-contenido{
+width: 800px;
 }
 .card {
   padding: 1rem;
