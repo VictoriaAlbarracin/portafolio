@@ -114,24 +114,23 @@ width: 800px;
 .container-imgs-v {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: auto;
-  gap: 1rem;
-  margin: 0 auto;
+  width: 400px;
+  height: 350px;
 }
 
 .container-imgs-v img {
-  width: 100%;
-  height: auto;
+  height: 0px;
+  flex-grow: 1;
   object-fit: cover;
-  opacity: .9;
-  transition: .3s ease;
+  opacity: 0.8;
+  transition: all 0.5s ease;
 }
 
 .container-imgs-v img:hover {
+  cursor: crosshair;
+  height: 150px;
   opacity: 1;
   filter: contrast(120%);
-  cursor: crosshair;
 }
 
 /* PROYECTOS */
