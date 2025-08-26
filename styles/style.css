@@ -116,7 +116,7 @@ width: 800px;
   padding: 2rem; 
   background: var(--accent);
 }
-.proyectos h2 { margin-bottom: 1rem; }
+.proyectos h2 { margin-bottom: 1rem; color:var(--accent: #222;)}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
