@@ -111,6 +111,29 @@ width: 800px;
   filter: contrast(120%);
 }
 
+.container-imgs-v {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.container-imgs-v img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: .9;
+  transition: .3s ease;
+}
+
+.container-imgs-v img:hover {
+  opacity: 1;
+  filter: contrast(120%);
+  cursor: crosshair;
+}
+
 /* PROYECTOS */
 .proyectos { 
   padding: 2rem; 
