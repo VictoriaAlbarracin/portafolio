@@ -9,7 +9,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: "Barlow", sans-serif;
-  background: #fff;
+  background: linear-gradient(to bottom, #111 0%, #1e1e1e 60%, #2a2a2a 100%);
   color: var(--accent);
   line-height: 1.6;
 }
@@ -38,7 +38,6 @@ body {
 }
 
 .features {
-  background: var(--accent);
   padding: 2rem 1rem;
 }
 
@@ -50,7 +49,9 @@ body {
 }
 
 .feature {
-  background: #f8f8f8;
+  background: linear-gradient(to bottom, rgba #000000d9 (0, 0, 0, 0.85), transparent);
+  color: #fff;
+  border-bottom: 2px solid #00ff55;
   border-radius: 8px;
   padding: 1.5rem;
 }
