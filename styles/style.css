@@ -78,13 +78,13 @@ body {
 .line-with-button::after {
   content: '';
   flex-grow: 1; 
-  height: 2px;
+  height: 1px;
   background-color: #00ff55; 
 }
 .line-with-button::before {
   content: '';
   flex-grow: 1;
-  height: 2px;
+  height: 1px;
   background-color: #00ff55; 
   max-width: 45px;
 }
@@ -92,10 +92,10 @@ body {
 .button {
   padding: 20px 35px;
   border-radius: 50px; 
-  border: 2px solid #00ff55;
+  border: 1px solid #00ff55;
   background-color: #1a1a1a;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   z-index: 1; 
