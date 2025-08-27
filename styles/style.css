@@ -51,7 +51,7 @@ body {
 .feature {
   background: linear-gradient(to bottom, rgba(0,0,0,0.85), transparent);
   color: #fff;
-  border-bottom: 2px solid #00ff55;
+  border-bottom: 2px solid white;
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -67,6 +67,39 @@ body {
   color: #555;
 }
 
+.line-with-button {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 50px; 
+  position: relative; 
+}
+
+.line-with-button::after {
+  content: '';
+  flex-grow: 1; 
+  height: 2px;
+  background-color: #00ff55; 
+}
+.line-with-button::before {
+  content: '';
+  flex-grow: 1;
+  height: 2px;
+  background-color: #00ff55; 
+  max-width: 45px;
+}
+
+.button {
+  padding: 20px 35px;
+  border-radius: 50px; 
+  border: 2px solid #00ff55;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1; 
+}
 
 /* SOBRE MI */
 .sobre-mi { padding: 2rem; height: 80%; align-content: center; }
