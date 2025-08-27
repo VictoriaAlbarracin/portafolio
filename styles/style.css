@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #282828de;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
   color: #fff;
   padding: 1rem 2rem;
 }
