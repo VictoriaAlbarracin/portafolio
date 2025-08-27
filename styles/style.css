@@ -138,7 +138,6 @@ width: 800px;
 /* PROYECTOS */
 .proyectos { 
   padding: 2rem; 
-  background: var(--accent);
 }
 .proyectos h2 { margin-bottom: 1rem; color:var(--accent: #222;)}
 .grid {
