@@ -128,7 +128,7 @@ width: 800px;
 
 .container-imgs-v img:hover {
   cursor: crosshair;
-  height: 150px;
+  height: 250px;
   opacity: 1;
   filter: contrast(120%);
 }
