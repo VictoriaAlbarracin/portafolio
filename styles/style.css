@@ -37,7 +37,7 @@ body {
 }
 
 .features {
-  background: #eee;
+  background: var(--accent);
   padding: 2rem 1rem;
 }
 
